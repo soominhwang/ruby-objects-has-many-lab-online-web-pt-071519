@@ -11,6 +11,8 @@ class Post
     @@all
   end
 
-  def
+  def author
+    @author
+  end
 
 end
