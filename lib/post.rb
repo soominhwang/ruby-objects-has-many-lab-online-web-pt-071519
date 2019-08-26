@@ -31,12 +31,4 @@ class Post
     end
   end
 
-  def artist_name
-    if self.artist !=nil
-    self.artist.name
-    else
-      nil
-    end
-  end
-
 end
