@@ -24,11 +24,19 @@ class Post
   end
 
   def author_name
-    if post.author != nil
+    if self.author != nil
       post.author
     else
       nil
-    end 
+    end
+  end
+
+  def artist_name
+    if self.artist !=nil
+    self.artist.name
+    else
+      nil
+    end
   end
 
 end
