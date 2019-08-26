@@ -15,4 +15,8 @@ class Post
     @author
   end
 
+  def post
+    @post
+  end 
+
 end
