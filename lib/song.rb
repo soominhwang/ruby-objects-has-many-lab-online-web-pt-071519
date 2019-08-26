@@ -20,7 +20,7 @@ class Song
   end
 
   def artist
-
+    @artist
   end
 
   def artist_name
