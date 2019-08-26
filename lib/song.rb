@@ -16,6 +16,7 @@ class Song
   end
 
   def name
+    @name
   end
 
   def artist
