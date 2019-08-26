@@ -3,8 +3,8 @@ class Post
   @@all = []
 
   def initialize(title)
-    
-  end 
+    @@all << title
+  end
 
 
 end
