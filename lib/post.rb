@@ -17,6 +17,10 @@ class Post
 
   def post
     @post
-  end 
+  end
+
+  def title
+    @title
+  end
 
 end
